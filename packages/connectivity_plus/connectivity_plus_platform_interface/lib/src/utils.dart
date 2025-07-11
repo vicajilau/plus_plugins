@@ -3,6 +3,7 @@ import 'package:connectivity_plus_platform_interface/connectivity_plus_platform_
 /// Parses the given list of states to a list of [ConnectivityResult].
 List<ConnectivityResult> parseConnectivityResults(List<String> states) {
   return states.map((state) {
+    print("DANIIIIII: $state");
     switch (state.trim()) {
       case 'bluetooth':
         return ConnectivityResult.bluetooth;
