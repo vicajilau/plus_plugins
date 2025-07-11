@@ -1,8 +1,8 @@
 import 'dart:async';
+
 import 'package:web/web.dart';
 
-import 'package:connectivity_plus_platform_interface/connectivity_plus_platform_interface.dart';
-
+import '../../connectivity_plus.dart';
 import '../connectivity_plus_web.dart';
 
 /// The web implementation of the ConnectivityPlatform of the Connectivity plugin.

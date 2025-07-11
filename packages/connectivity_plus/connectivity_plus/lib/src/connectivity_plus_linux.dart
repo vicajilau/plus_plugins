@@ -1,8 +1,9 @@
 import 'dart:async';
 
-import 'package:connectivity_plus_platform_interface/connectivity_plus_platform_interface.dart';
 import 'package:meta/meta.dart';
 import 'package:nm/nm.dart';
+
+import '../connectivity_plus_platform_interface.dart';
 
 // Used internally
 // ignore_for_file: public_member_api_docs
